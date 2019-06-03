@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 """
-Material Dashboard - coded in Flask
+Argon Dashboard - coded in Flask
 Author: AppSeed.us - App Generator 
 """
 
@@ -43,8 +43,8 @@ def register():
     msg = None
 
     # custommize your pate title / description here
-    page_title       = 'Register - Flask Material Dashboard | AppSeed App Generator'
-    page_description = 'Open-Source Flask Material Dashboard, registration page.'
+    page_title       = 'Register - Flask Argon Dashboard | AppSeed App Generator'
+    page_description = 'Open-Source Flask Argon Dashboard, registration page.'
 
     # check if both http method is POST and form is valid on submit
     if form.validate_on_submit():
@@ -89,8 +89,8 @@ def login():
     msg = None
 
     # custommize your page title / description here
-    page_title = 'Login - Flask Material Dashboard | AppSeed App Generator'
-    page_description = 'Open-Source Flask Material Dashboard, login page.'
+    page_title = 'Login - Flask Argon Dashboard | AppSeed App Generator'
+    page_description = 'Open-Source Flask Argon Dashboard, login page.'
 
     # check if both http method is POST and form is valid on submit
     if form.validate_on_submit():
@@ -122,60 +122,36 @@ def login():
 def icons():
 
     # custommize your page title / description here
-    page_title = 'Icons - Flask Material Dashboard | AppSeed App Generator'
-    page_description = 'Open-Source Flask Material Dashboard, the icons page.'
+    page_title = 'Icons - Flask Argon Dashboard | AppSeed App Generator'
+    page_description = 'Open-Source Flask Argon Dashboard, the icons page.'
 
     # try to match the pages defined in -> pages/
     return render_template('layouts/default.html',
                             content=render_template( 'pages/icons.html') )
 
 # Used only for static export
-@app.route('/notifications.html')
-def notifications():
-
-    # custommize your page title / description here
-    page_title = 'Notifications - Flask Material Dashboard | AppSeed App Generator'
-    page_description = 'Open-Source Flask Material Dashboard, the notifications page.'
-
-    # try to match the pages defined in -> pages/
-    return render_template('layouts/default.html',
-                            content=render_template( 'pages/notifications.html') )
-
-# Used only for static export
-@app.route('/user.html')
-def user():
-
-    # custommize your page title / description here
-    page_title = 'Profile - Flask Material Dashboard | AppSeed App Generator'
-    page_description = 'Open-Source Flask Material Dashboard, the profile page.'
-
-    # try to match the pages defined in -> pages/
-    return render_template('layouts/default.html',
-                            content=render_template( 'pages/user.html') )
-
-# Used only for static export
 @app.route('/tables.html')
-def table():
+def tables():
 
     # custommize your page title / description here
-    page_title = 'Tables - Flask Material Dashboard | AppSeed App Generator'
-    page_description = 'Open-Source Flask Material Dashboard, the tables page.'
+    page_title = 'Tables - Flask Argon Dashboard | AppSeed App Generator'
+    page_description = 'Open-Source Flask Argon Dashboard, the tables page.'
 
     # try to match the pages defined in -> pages/
     return render_template('layouts/default.html',
                             content=render_template( 'pages/tables.html') )
 
 # Used only for static export
-@app.route('/typography.html')
-def typography():
+@app.route('/profile.html')
+def profile():
 
     # custommize your page title / description here
-    page_title = 'Typography - Flask Material Dashboard | AppSeed App Generator'
-    page_description = 'Open-Source Flask Material Dashboard, the tables page.'
+    page_title = 'Tables - Flask Argon Dashboard | AppSeed App Generator'
+    page_description = 'Open-Source Flask Argon Dashboard, the tables page.'
 
     # try to match the pages defined in -> pages/
     return render_template('layouts/default.html',
-                            content=render_template( 'pages/typography.html') )
+                            content=render_template( 'pages/profile.html') )
 
 # App main route + generic routing
 @app.route('/', defaults={'path': 'index.html'})

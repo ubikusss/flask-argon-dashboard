@@ -3,9 +3,9 @@
 Argon Dashboard - coded in Flask
 
 Author  : AppSeed App Generator
+Design  : Creative-Tim.com
 License : MIT 
 Support : https://appseed.us/support 
-
 """
 
 from flask               import render_template, request, url_for, redirect

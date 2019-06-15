@@ -3,9 +3,9 @@
 Argon Dashboard - coded in Flask
 
 Author  : AppSeed App Generator
+Design  : Creative-Tim.com
 License : MIT 
 Support : https://appseed.us/support 
-
 """
 
 from flask_wtf          import FlaskForm

@@ -1,7 +1,11 @@
 # -*- encoding: utf-8 -*-
 """
-Author: AppSeed App Generator
-License: MIT
+Argon Dashboard - coded in Flask
+
+Author  : AppSeed App Generator
+Design  : Creative-Tim.com
+License : MIT 
+Support : https://appseed.us/support 
 """
 
 # used by the static export

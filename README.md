@@ -4,7 +4,7 @@ Beautiful [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard
 
 <hr>
 
-![Flask Dashboard](https://github.com/app-generator/flask-argon-dashboard/blob/master/screenshots/flask-argon-dashboard-intro.gif)
+![Flask Dashboard Argon](https://github.com/app-generator/flask-argon-dashboard/blob/master/screenshots/flask-argon-dashboard-intro.gif)
 
 <hr>
 
@@ -13,8 +13,8 @@ Features
 
 - SQLite database
 - Login, Register
-- Static Build `python ./static.py`. The static build goes to `app/build` directory 
-- FTP Deploy script. **Info**: this `require node.js` and the edit of `deploy.js` to add FTP server credentials. 
+- REST API node on top of [Flask-RESTful](https://flask-restful.readthedocs.io/en/latest/)
+
 
 ### Screenshot - generic page
 
@@ -38,6 +38,13 @@ Features
 3. Install the dependencies:
   ```
   $ pip install -r requirements.txt
+  ```
+
+4. Create the database, using Flask shell
+  ```
+  $ flask shell
+  $ >>> from app import db
+  $ >>> db.create_all()
   ```
 
 5. Run the development server:

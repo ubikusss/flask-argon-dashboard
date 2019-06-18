@@ -12,9 +12,18 @@ from flask               import render_template, request, url_for, redirect
 from flask_login         import login_user, logout_user, current_user, login_required
 from werkzeug.exceptions import HTTPException, NotFound, abort
 
+import logging 
+
 from app        import app, lm, db, bc
 from app.models import User
 from app.forms  import LoginForm, RegisterForm
+
+@app.route('/print')
+def printMsg():
+    app.logger.warning('testing warning log')
+    app.logger.error('testing error log')
+    app.logger.info('testing info log')
+    return "Check your console"
 
 # provide login manager with load_user callback
 @lm.user_loader

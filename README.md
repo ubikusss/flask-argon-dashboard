@@ -1,6 +1,6 @@
 ﻿## [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon)
 
-Beautiful [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard) design coded in [Flask](http://flask.pocoo.org/) 
+Admin [Dashboard](https://en.wikipedia.org/wiki/Dashboard_(business)) with [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard) design coded in [Flask](http://flask.pocoo.org/)
 
 <hr>
 
@@ -73,7 +73,6 @@ Features
  - [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard) - design information (Creative-Tim)
  - [Flask](http://flask.pocoo.org/) - official website
  
-
 ---
 Made with ♥ by [AppSeed](https://appseed.us?ref=github)
 

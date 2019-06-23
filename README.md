@@ -1,4 +1,4 @@
-﻿## [Flask Dashboard Argon](https://appseed.us/apps/flask-dashboard/argon-dashboard)
+﻿## [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon)
 
 Beautiful [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard) design coded in [Flask](http://flask.pocoo.org/) 
 
@@ -56,7 +56,7 @@ Features
 
 
 ## Support
-- For issues and features request, use [Github](https://github.com/app-generator/flask-argon-dashboard/issues/new) or join [AppSeed](https://appseed.us?ref=light-dashboard-flask) community on [Discord](https://discord.gg/fZC6hup)   
+- For issues and features request, use [Github](https://github.com/app-generator/flask-argon-dashboard/issues/new) or join [AppSeed](https://appseed.us) community on [Discord](https://discord.gg/fZC6hup)   
 
 
 ### App Screenshots
@@ -66,10 +66,11 @@ Features
 
 ### Resources
 
- - [Flask Dashboard Argon](https://appseed.us/apps/flask-dashboard/argon-dashboard) - app info
- - Product [documentation](https://docs.appseed.us/apps/flask-dashboard/argon-dashboard/)
+ - [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon) - app info
+ - Product [documentation](https://docs.appseed.us/admin-dashboards/flask-dashboard-argon/)
  - Live [DEMO](https://flask-argon-dashboard.appseed.us/)
- - [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard) - design
+ - Related [Blog Article](https://blog.appseed.us/flask-dashboard-argon-zero-to-full-stack/)
+ - [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard) - design information (Creative-Tim)
  - [Flask](http://flask.pocoo.org/) - official website
  
 

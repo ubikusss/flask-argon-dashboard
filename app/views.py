@@ -8,15 +8,23 @@ License : MIT
 Support : https://appseed.us/support 
 """
 
-from flask               import render_template, request, url_for, redirect
+from flask               import render_template, request, url_for, redirect, send_from_directory
 from flask_login         import login_user, logout_user, current_user, login_required
 from werkzeug.exceptions import HTTPException, NotFound, abort
 
-import logging 
+import os, logging 
 
 from app        import app, lm, db, bc
 from app.models import User
 from app.forms  import LoginForm, RegisterForm
+
+@app.route('/sitemap.xml')
+def sitemap():
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
+
+@app.route('/googlee35aa2f2fd7b0c5b.html')
+def google():
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'googlee35aa2f2fd7b0c5b.html')
 
 @app.route('/print')
 def printMsg():

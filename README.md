@@ -1,4 +1,4 @@
-﻿# [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon)
+# [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon)
 
 Live [DEMO](https://flask-argon-dashboard.appseed.us/) - Open-Source **Admin Dashboard** with [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard) design coded in [Flask](http://flask.pocoo.org/)
 
@@ -52,10 +52,12 @@ Live [DEMO](https://flask-argon-dashboard.appseed.us/) - Open-Source **Admin Das
 
 - For issues and features request, use [Github](https://github.com/app-generator/flask-argon-dashboard/issues/new) or join [AppSeed](https://appseed.us) community on [Discord](https://discord.gg/fZC6hup)   
 
-
 ## App Screenshots
 
 ![Flask Dashboard](https://github.com/app-generator/flask-argon-dashboard/blob/master/screenshots/flask-argon-dashboard-login.jpg)
+
+<br />
+
 ![Flask Dashboard](https://github.com/app-generator/flask-argon-dashboard/blob/master/screenshots/flask-argon-dashboard-profile.jpg)
 
 ## Resources

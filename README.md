@@ -1,27 +1,14 @@
-﻿## [Flask Dashboard Argon](https://flask-argon-dashboard.appseed.us)
+﻿# [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon)
 
-Admin [Dashboard](https://en.wikipedia.org/wiki/Dashboard_(business)) with [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard) design coded in [Flask](http://flask.pocoo.org/)
+Live [DEMO](https://flask-argon-dashboard.appseed.us/) - Open-Source **Admin Dashboard** with [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard) design coded in [Flask](http://flask.pocoo.org/)
 
-<hr>
+<br />
 
 ![Flask Dashboard Argon](https://github.com/app-generator/flask-argon-dashboard/blob/master/screenshots/flask-argon-dashboard-intro.gif)
 
-<hr>
+<br />
 
-Features
-------
-
-- SQLite database
-- Login, Register
-- REST API node on top of [Flask-RESTful](https://flask-restful.readthedocs.io/en/latest/)
-
-
-### Screenshot - generic page
-
-![Material Dashboard - coded in Flask](https://github.com/app-generator/flask-argon-dashboard/blob/master/screenshots/flask-argon-dashboard-main.jpg)
-
-
-### Quick Start
+## Build from sources
 
 1. Clone the repo
   ```
@@ -54,17 +41,24 @@ Features
 
 6. See the running app by visiting [http://localhost:5000](http://localhost:5000) in your browser
 
+## Features
+
+- SQLite database
+- Login, Register
+- Static Build `python ./static.py`. The static build goes to `app/build` directory 
+- FTP Deploy script. **Info**: this `require node.js` and the edit of `deploy.js` to add FTP server credentials. 
 
 ## Support
+
 - For issues and features request, use [Github](https://github.com/app-generator/flask-argon-dashboard/issues/new) or join [AppSeed](https://appseed.us) community on [Discord](https://discord.gg/fZC6hup)   
 
 
-### App Screenshots
+## App Screenshots
 
 ![Flask Dashboard](https://github.com/app-generator/flask-argon-dashboard/blob/master/screenshots/flask-argon-dashboard-login.jpg)
 ![Flask Dashboard](https://github.com/app-generator/flask-argon-dashboard/blob/master/screenshots/flask-argon-dashboard-profile.jpg)
 
-### Resources
+## Resources
 
  - [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon) - app info
  - Product [documentation](https://docs.appseed.us/admin-dashboards/flask-dashboard-argon/)

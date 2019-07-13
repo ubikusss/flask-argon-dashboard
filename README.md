@@ -54,7 +54,7 @@ Live [DEMO](https://flask-argon-dashboard.appseed.us/) - Open-Source **Admin Das
 
 ## Support
 
-- For issues and features request, use [Github](/issues/new) or access the support page provided by [AppSeed](https://appseed.us/support) 
+For issues and features request, use **Github** or access the [support page](https://appseed.us/support) provided by **AppSeed** 
 
 <br />
 

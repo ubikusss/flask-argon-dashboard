@@ -1,6 +1,6 @@
 # [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon)
 
-Open-Source **dashboars** with **Argon** design coded in **Flask**
+Open-Source **admin dashboard** with **Argon** design coded in **Flask**
 
 <br />
 

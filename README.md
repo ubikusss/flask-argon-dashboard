@@ -1,6 +1,6 @@
 # [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon)
 
-Live [DEMO](https://flask-argon-dashboard.appseed.us/) - Open-Source **Admin Dashboard** with [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard) design coded in [Flask](http://flask.pocoo.org/)
+Open-Source **dashboars** with **Argon** design coded in **Flask**
 
 <br />
 

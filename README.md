@@ -54,7 +54,7 @@ Live [DEMO](https://flask-argon-dashboard.appseed.us/) - Open-Source **Admin Das
 
 ## Support
 
-- For issues and features request, use [Github](issues/new) or access the support page provided by [AppSeed](https://appseed.us/support) 
+- For issues and features request, use [Github](/issues/new) or access the support page provided by [AppSeed](https://appseed.us/support) 
 
 <br />
 
@@ -76,6 +76,8 @@ Live [DEMO](https://flask-argon-dashboard.appseed.us/) - Open-Source **Admin Das
  - Related [Blog Article](https://blog.appseed.us/flask-dashboard-argon-zero-to-full-stack/)
  - [Argon Dashboard](https://www.creative-tim.com/product/argon-dashboard) - design information (Creative-Tim)
  - [Flask](http://flask.pocoo.org/) - official website
- 
+
+<br />
+
 ---
 [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon) provided by **AppSeed**

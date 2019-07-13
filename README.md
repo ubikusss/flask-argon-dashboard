@@ -41,6 +41,8 @@ Live [DEMO](https://flask-argon-dashboard.appseed.us/) - Open-Source **Admin Das
 
 6. See the running app by visiting [http://localhost:5000](http://localhost:5000) in your browser
 
+<br />
+
 ## Features
 
 - SQLite database
@@ -48,9 +50,13 @@ Live [DEMO](https://flask-argon-dashboard.appseed.us/) - Open-Source **Admin Das
 - Static Build `python ./static.py`. The static build goes to `app/build` directory 
 - FTP Deploy script. **Info**: this `require node.js` and the edit of `deploy.js` to add FTP server credentials. 
 
+<br />
+
 ## Support
 
-- For issues and features request, use [Github](https://github.com/app-generator/flask-argon-dashboard/issues/new) or join [AppSeed](https://appseed.us) community on [Discord](https://discord.gg/fZC6hup)   
+- For issues and features request, use [Github](issues/new) or access the support page provided by [AppSeed](https://appseed.us/support) 
+
+<br />
 
 ## App Screenshots
 
@@ -59,6 +65,8 @@ Live [DEMO](https://flask-argon-dashboard.appseed.us/) - Open-Source **Admin Das
 <br />
 
 ![Flask Dashboard](https://github.com/app-generator/flask-argon-dashboard/blob/master/screenshots/flask-argon-dashboard-profile.jpg)
+
+<br />
 
 ## Resources
 
@@ -70,5 +78,4 @@ Live [DEMO](https://flask-argon-dashboard.appseed.us/) - Open-Source **Admin Das
  - [Flask](http://flask.pocoo.org/) - official website
  
 ---
-Made with ♥ by [AppSeed](https://appseed.us?ref=github)
-
+[Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon) provided by **AppSeed**

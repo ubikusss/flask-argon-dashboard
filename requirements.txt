@@ -10,4 +10,4 @@ SQLAlchemy==1.2.16
 Werkzeug==0.14.1
 WTForms==2.2.1
 flask_restful==0.3.7
-FlaskLogin==0.4.1
+Flask-Login==0.4.1
